@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: #2c3e50;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.allBox {
+    width: 500px;
+    padding: 20px;
+    background: #34495e;
+    color: #fff;
+}
+
+.allBox .title {
+    font-size: 1.5rem;
+    background: #1e2a36;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.allBox .timeAndScore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.allBox .typeTitle {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.allBox .word {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.allBox .inputBox {
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.allBox .inputBox .inputWord {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.chooseBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #1e2a36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseBox .chooseInBox {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.chooseBox .chooseInBox .label {
+    color: #fff;
+}
+
+.chooseBox .chooseInBox .difficulty {
+    border-radius: 5px;
+    background: #5d6872;
+}
+
+.gameEndBox {
+    position: absolute;
+    width: 500px;
+    padding: 20px;
+    background: #34495e;
+    color: #fff;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.gameEndBox .endTitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.gameEndBox form {
+    padding-top: 30px;
+}
+
+.gameEndBox form .buttonReload {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.show {
+    display: flex;
+}

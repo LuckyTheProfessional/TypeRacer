@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="chooseBox">
+        <form class="chooseInBox"> 
+            <label for="difficulty" class="label">Choose Difficulty</label>
+            <select name="difficulty" id="difficulty" class="difficulty">
+                <option value="medium">Medium</option>
+                <option value="easy">Easy</option>
+                <option value="hard">Hard</option>
+            </select>
+        </form>
+    </div>
+    <div class="allBox">
+        <p class="title">👨‍💻  Speed Typer  👨‍💻</p>
+
+        <div class="timeAndScore">
+            <p class="time">Time left: 10s</p>
+            <p class="score">Score: 20</p>
+        </div>
+
+        <p class="typeTitle">Type the following:</p>
+        <p class="word">highfalutin</p>
+
+        <form class="inputBox">
+            <input type="text" class="inputWord" id="inputWord" placeholder="Type the word here...">
+        </form>
+        
+    </div>
+
+    <div class="gameEndBox">
+        <p class="endTitle">Time Run Out</p>
+        <p class="finalScore">Your final score is 0</p>
+        <form id="reload">
+            <button class="buttonReload">Try again</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
